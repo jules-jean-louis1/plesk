@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #88C1D0;
+    background-repeat: no-repeat;
+}
+
+
+/*header*/
+ul {
+    list-style-type: none;
+}
+header{
+    display: flex;
+    padding: 0px 24px 0px 24px;
+    height: 12%;
+    width: 95%;
+    background: #FFFFFF;
+    border-bottom-left-radius: 37px;
+    border-bottom-right-radius: 37px;
+    margin-right: 24px;
+    margin-left: 24px;
+    border: 1px solid #D9D9D9;
+    box-shadow: 0px 0px 17px rgba(0, 0, 0, 0.08);
+    position: sticky;
+    top: 0;
+    /* Rectangle 4 */
+}
+.navbar-container{
+    display: flex;
+    height: 12%;
+    width: 1872px;
+    justify-content: center;
+    position: absolute;
+
+
+}
+.img-top-left{
+    width: 437px;
+}
+.img-top-left img{
+    width: 437px;
+    padding-top: 19px; 
+}
+.nav-bar-context{
+    width: 100%;
+}
+.navbar2{
+    padding-top: 36px;
+}
+.navbar-items{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 0px;
+    gap: 69px;
+    position: absolute;
+    top: 20;
+    color: #336699;
+}
+.navbar-items li{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-items li{
+    display: flex;
+}
+button#bout1 {
+    width: 182px;
+    height: 60px;
+    background: #FF2063;
+    border-radius: 18px;
+    border: #FF2063;
+    color: white;
+    text-transform: uppercase;
+}
+
+.presentation{
+    display: flex;
+    justify-content: center;
+}
+
+/*main*/
+
+.background-cc{
+    background-color: #88C1D0;
+    width: 100%;
+    height: 100%;
+}
+.form1{
+    display: flex;
+}
+.paragragh-present {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.paragragh-present h2{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 42px;
+    line-height: 1.3em;
+    color: #FFFFFF;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.paragraph-interboxtop {
+    font-size: 34px;
+    color: #275FA0;
+    font-family: 'Roboto Mono', monospace;
+}
+.box-warpper-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 41px;
+    padding: 60 40 60 40;
+}
+
+.paragraph-interboxtop{
+    margin-top: 0px;
+
+}
+/*footer*/
+
+footer {
+    background-color: #09223b;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+}
+.footer-info{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    height: 420px;
+}
+.foot-social img{
+    width: 355px;
+    height: 65px;
+    margin-top: 85px;
+}
+.foot-social1 ul{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+
+.box-foot-menu,
+.box-foot-formation,
+.box-foot-info{
+    line-height: 2.2;
+    margin-top: 85px;
+}
+.box-foot-menu,
+.box-foot-formation,
+.box-foot-info strong{
+    font-size: 17px;
+}
+
+.box-foot1{
+    display: flex;
+    flex-direction:column
+}
+.foot-social1{
+    display: flex;
+}
+
+#white-social{
+    height: 32px;
+    width: 32px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.foot-social1 li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+
+.facebook, .instagram, .linkedin, .twitter, .youtube{
+    height: 60%;
+ }
+.linkedin{
+    padding-top: 2px;
+    height: 62%;
+}
+
+.button-contact {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #fff;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+}
+
+.button-contact:disabled {
+  pointer-events: none;
+}
+
+.button-contact:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-contact:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+.box-foot-info img{
+    margin-top: 15px;
+}
+
+/* mention legal*/
+.footer-bar{
+    background-color: #000000;
+    width: 100%;
+    
+}
+.foot-footer{
+    display: flex;
+    margin-left: 300px;
+    margin-right: 300px;
+    gap: 300px;
+}
+
+.legal p{
+    margin-bottom: 0px;
+}
+#fwhite-social{
+    height: 18px;
+    width: 28px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.social-bar ul{
+    width: 70%;
+    display: flex;
+    gap: 10px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+    box-sizing: border-box;
+}
+.social-bar li{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
